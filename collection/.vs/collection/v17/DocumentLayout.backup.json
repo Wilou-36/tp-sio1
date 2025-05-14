@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DOREGO\\source\\repos\\collection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|c:\\users\\dorego\\source\\repos\\collection\\collection\\formation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|solutionrelative:collection\\formation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|c:\\users\\dorego\\source\\repos\\collection\\collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|solutionrelative:collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|c:\\users\\dorego\\source\\repos\\collection\\collection\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|solutionrelative:collection\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|c:\\users\\dorego\\source\\repos\\collection\\collection\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D0843-3A89-4CDA-864C-BC50960EB18E}|collection\\collection.csproj|solutionrelative:collection\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 291,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Participant.cs",
+              "RelativeDocumentMoniker": "collection\\Participant.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Participant.cs",
+              "RelativeToolTip": "collection\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:20:05.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Session.cs",
+              "RelativeDocumentMoniker": "collection\\Session.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Session.cs",
+              "RelativeToolTip": "collection\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:15:48.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Formation.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Formation.cs",
+              "RelativeDocumentMoniker": "collection\\Formation.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Formation.cs",
+              "RelativeToolTip": "collection\\Formation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:12:05.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Program.cs",
+              "RelativeDocumentMoniker": "collection\\Program.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\source\\repos\\collection\\collection\\Program.cs",
+              "RelativeToolTip": "collection\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:11:02.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
