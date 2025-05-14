@@ -1,0 +1,63 @@
+-- Insertion des communes
+INSERT INTO Commune (id_commune, nom) VALUES
+('45147', 'FLEURY LES AUBRAIS'),
+('45210', 'FONTENAY SUR LOING'),
+('45110', 'GERMIGNY DES PRES'),
+('45520', 'GIDY'),
+('45500', 'GIEN'),
+('45120', 'GIROLLES'),
+('45800', 'SAINT JEAN DE BRAYE'),
+('45140', 'SAINT JEAN DE LA RUELLE'),
+('45650', 'SAINT JEAN LE BLANC');
+
+-- Insertion des types d'établissements
+INSERT INTO Etablissement (id_type, type_etab) VALUES
+('1', 'Ecole primaire publique');
+
+-- Insertion des écoles
+INSERT INTO Ecole (id_ia45, adresse, code_postal, nom, code_insee, validite, placement, x, y, telephone, sites_internet, id_type, id_commune) VALUES
+('0450430Y', 'Place de la République', '45400', 'Ecole primaire publique Réné Ferragu', '45147', '2012-07-01', 'Géocodage', 619427.6, 6759511.75, '02 38 86 33 36', 'http://www.education.gouv.fr/annuaire/45-loiret/fleury-les-aubrais/etab/ecole-primaire-publique-rene-ferragu.html', '1', '45147'),
+('0450504D', '55 chemin du Castel', '45210', 'Ecole primaire publique', '45148', '2012-07-01', 'Géocodage', 683828.9, 6777565.7, '02 38 95 81 09', 'http://www.education.gouv.fr/annuaire/45-loiret/fontenay-sur-loing/etab/ecole-primaire-publique.html', '1', '45210'),
+('0450539S', '10 Route de Saint-Benoit/loire', '45110', 'Ecole primaire publique Grand Clair', '45153', '2012-07-01', 'Géocodage', 645129.9, 6749724.7, '02 38 58 22 69', 'http://www.education.gouv.fr/annuaire/45-loiret/germigny-des-pres/etab/ecole-primaire-publique-du-grand-clair.html', '1', '45110'),
+('0450871C', 'Place Lucien Bourgon', '45520', 'Ecole primaire publique', '45154', '2012-07-01', 'Géocodage', 613215.6, 6766137.25, '02 38 75 35 95', 'http://www.education.gouv.fr/annuaire/45-loiret/gidy/etab/ecole-primaire-publique.html', '1', '45520'),
+('0450831J', '55 rue des Gascons', '45500', 'Ecole primaire publique Berry', '45155', '2012-07-01', 'Géocodage', 672030.1, 6730997.2, '02 38 67 69 74', 'http://www.education.gouv.fr/annuaire/45-loiret/gien/etab/ecole-primaire-publique-berry.html', '1', '45500');
+
+--Création table enseignant
+CREATE TABLE Enseignant(
+   id_enseignant VARCHAR(50),
+   nom VARCHAR(50),
+   prenom VARCHAR(50),
+   statut enum('titulaire', 'contractuel', 'stagiaire') not null,
+   PRIMARY KEY(id_enseignant)
+);
+
+--Création table intervention
+CREATE TABLE Intervention(
+   id_ia45 VARCHAR(50),
+   id_enseignant VARCHAR(50),
+   nbheure INT,
+   PRIMARY KEY(id_ia45, id_enseignant),
+   FOREIGN KEY(id_ia45) REFERENCES Ecole(id_ia45),
+   FOREIGN KEY(id_enseignant) REFERENCES Enseignant(id_enseignant)
+);
+
+--insert enseignant
+INSERT INTO Enseignant (id_enseignant, nom, prenom, statut) VALUES
+('ENS001', 'Dupont', 'Jean', 'titulaire'),
+('ENS002', 'Martin', 'Sophie', 'contractuel'),
+('ENS003', 'Durand', 'Paul', 'stagiaire'),
+('ENS004', 'Leroy', 'Claire', 'titulaire');
+
+--insert interventions
+INSERT INTO Intervention (id_ia45, id_enseignant, nbheure) VALUES
+('0450430Y', 'ENS001', 18),
+('0450504D', 'ENS002', 12),
+('0450871C', 'ENS003', 15),
+('0450831J', 'ENS004', 20);
+
+--insertion des directeurs
+ALTER TABLE Ecole directeur FOREIGN KEY (directeur) REFERENCES Enseignant (id_enseignant);
+ALTER TABLE Ecole 
+ADD CONSTRAINT directeur
+FOREIGN KEY (directeur) 
+REFERENCES Enseignant (id_enseignant);
