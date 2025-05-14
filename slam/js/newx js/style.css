@@ -1,0 +1,11 @@
+.content{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:nowrap;   
+}
+#contenu {
+    flex: 2;
+}
+#actu{
+    flex: 1;
+}
