@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Cours JS</title>
+        <meta name="description" content="POO en JS">
+        <meta name="author" content="Kevin FERRANDON">
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <h1 >News JS</h1>  
+            <div id="complexe">
+                <input type="text" id="titre" />
+                <input type="text" id="desc" />
+                <a href="#" onclick='new News(document.getElementById("titre").value,
+                             document.getElementById("desc").value
+                             );'>Add news</a>
+            </div>
+
+            <div class="content">
+                <div id="contenu" class="contenu">
+                    <h2> Classes</h2>
+                            <p>
+                                Les classes JavaScript ont été introduites avec ECMAScript 2015. Elles sont un « sucre syntaxique » par rapport à l'héritage prototypal. En effet, cette syntaxe n'introduit pas un nouveau modèle d'héritage dans JavaScript ! Elle fournit uniquement une syntaxe plus simple pour créer des objets et manipuler l'héritage.
+                            </p>
+                            
+                                <h3>Définir des classes</h3>
+                                <p>
+                                    En réalité, les classes sont juste des fonctions spéciales. Ainsi, les classes sont définies de la même façon que les fonctions : par déclaration, ou par expression.
+                                </p>
+                                <h3>Les déclarations de classes</h3>
+                                <p>Pour utiliser une déclaration de classe simple, on utilisera le mot-clé class, suivi par le nom de la classe que l'on déclare (ici « Rectangle »).
+                                </p>
+                            
+                            <code>
+                                class Rectangle {
+                                constructor(hauteur, largeur) {
+                                this.hauteur = hauteur;
+                                this.largeur = largeur;
+                                }
+                                }
+                                </code>
+                                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes">Source de l'article</a>
+                                    </div>
+                                    <div id="actu" class="actu"><h3>Actu</h3></div>
+                                    </div>
+                                    </div>
+
+
+
+
+                                    <script src="news.js"></script>
+
+                                    </body>
+                                    </html>
