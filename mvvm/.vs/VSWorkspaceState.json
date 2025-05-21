@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\mvvm_sqlite_task",
+    "\\mvvm_sqlite_task\\EasyTask",
+    "\\mvvm_sqlite_task\\EasyTask\\Model",
+    "\\mvvm_sqlite_task\\EasyTask\\Model\\Repository",
+    "\\mvvm_sqlite_task\\EasyTask\\View",
+    "\\mvvm_sqlite_task\\EasyTask\\ViewModel"
+  ],
+  "SelectedNode": "\\mvvm_sqlite_task\\EasyTask\\Model\\Task.cs",
+  "PreviewInSolutionExplorer": false
+}

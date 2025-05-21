@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\Model\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\Model\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 291,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Project.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\Model\\Project.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Project.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\Model\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:38:58.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Frm_Task.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:46:47.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Task.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\Model\\Task.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Task.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\Model\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:19:44.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Frm_Task.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\View\\Frm_Task.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwDkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:42:23.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\ViewModel\\TaskViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:33:25.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\DOREGO\\Documents\\tp\\mvvm\\mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "mvvm_sqlite_task\\EasyTask\\Model\\Repository\\TaskRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:29:12.39Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
